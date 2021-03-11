@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- metas -->
+    <meta charset="utf-8">
+    <meta name="author" content="Chitrakoot Web" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="University and Education Template" />
+    <meta name="description" content="Campus - University and Education Template" />
+
+    <!-- title -->
+    <title>{{$title ?? ''}}</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{asset('img/logos/favicon.png')}}" />
+    <link rel="apple-touch-icon" href="{{asset('img/logos/apple-touch-icon-57x57.png')}}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('img/logos/apple-touch-icon-72x72.png')}}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('img/logos/apple-touch-icon-114x114.png')}}" />
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="{{asset('css/plugins.css')}}" />
+
+    <!-- search css -->
+    <link rel="stylesheet" href="{{asset('search/search.css')}}" />
+
+    <!-- core style css -->
+    <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+
+    <!-- custom Styles -->
+    <link href="{{asset('css/app.css')}}" rel="stylesheet" />
+</head>
+<body>
+    <!-- start page loading -->
+    <div id="preloader">
+        <div class="row loader">
+            <div class="loader-icon"></div>
+        </div>
+    </div>
+    <!-- end page loading -->
+
+    <!-- start main-wrapper section -->
+    <div class="main-wrapper">
+
+        @include('includes.navbar')
+
+        @yield('content')
+
+        @include('includes.footer')
+    </div>
+    <!-- end main-wrapper section -->
+
+    <!-- Start Global Values for logo -->
+    <script type="text/javascript">
+        var logoLightUrl = "{{asset('img/logo.png')}}"
+        var logoDarckUrl = "{{asset('img/logo-dark.png')}}"
+    </script>
+    <!-- End Global Values for logo -->
+    <!-- start scroll to top -->
+    <a href="javascript:void(0)" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
+    <!-- end scroll to top -->
+    <!-- all js include start -->
+
+    <!-- jQuery -->
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+
+    <!-- modernizr js -->
+    <script src="{{asset('js/modernizr.js')}}"></script>
+
+    <!-- bootstrap -->
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+
+    <!-- serch -->
+    <script src="{{asset('search/search.js')}}"></script>
+
+    <!-- navigation -->
+    <script src="{{asset('js/nav-menu.js')}}"></script>
+
+    <!-- tab -->
+    <script src="{{asset('js/easy.responsive.tabs.js')}}"></script>
+
+    <!-- owl carousel -->
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+
+    <!-- thumbs js -->
+    <script src="{{asset('js/owl.carousel.thumbs.js')}}"></script>
+
+    <!-- jquery.counterup.min -->
+    <script src="{{asset('js/jquery.counterup.min.js')}}"></script>
+
+    <!-- stellar js -->
+    <script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+
+    <!-- waypoints js -->
+    <script src="{{asset('js/waypoints.min.js')}}"></script>
+
+    <!-- countdown js -->
+    <script src="{{asset('js/countdown.js')}}"></script>
+
+    <!-- jquery.magnific-popup js -->
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+
+    <!-- isotope.pkgd.min js -->
+    <script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
+
+    <!-- core scripts -->
+    <script src="{{asset('js/main.js')}}"></script>
+
+    <!-- custom scripts -->
+    <script src="{{asset('js/app.js')}}"></script>
+
+    <!-- all js include end -->
+</body>
+</html>
