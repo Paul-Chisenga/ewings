@@ -61,7 +61,7 @@
             <div class="row facility-block">
                 <div class="col-12 col-md-4 mb-1">
                     <div class="step bg-sky">
-                        <a href="/solutions/aviationSafety" class="text-center">
+                        <a href="/solutions/unmannedAircraftSystems" class="text-center">
                             <i class="ti-cloud-down"></i>
                             <h4 class="step-title">Unmanned Aircraft Systems</h4>
                         </a>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-1">
                     <div class="step bg-green">
-                        <a href="/solutions/aviationBusiness" class="text-center">
+                        <a href="/solutions/consulting" class="text-center">
                             <i class="ti-check-box"></i>
                             <h4 class="step-title">Consulting</h4>
                         </a>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-1">
                     <div class="step bg-pink">
-                        <a href="/solutions/law" class="text-center">
+                        <a href="/solutions/training" class="text-center">
                             <i class="ti-mouse"></i>
                             <h4 class="step-title">Training</h4>
                         </a>
